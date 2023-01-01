@@ -7,10 +7,10 @@ The contract has a number of modifiers, which are functions that are used to mod
 
 The contract has several functions:
 
-getBalance returns the balance of the contract
-contribute allows a contributor to contribute to the crowd funding campaign
-refund allows a contributor to request a refund if the target is not reached and the deadline has passed
-createRequest allows the owner to create a payment request for the crowd funding campaign
-voteRequest allows a contributor to vote on a payment request
-makePayment allows the owner to make a payment for a request if the number of votes is greater than half of the total contributors
+getBalance returns the balance of the contract,
+contribute allows a contributor to contribute to the crowd funding campaign,
+refund allows a contributor to request a refund if the target is not reached and the deadline has passed,
+createRequest allows the owner to create a payment request for the crowd funding campaign,
+voteRequest allows a contributor to vote on a payment request,
+makePayment allows the owner to make a payment for a request if the number of votes is greater than half of the total contributors.
 
