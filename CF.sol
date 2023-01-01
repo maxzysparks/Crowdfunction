@@ -49,7 +49,7 @@ contract CrowdFunding {
         _;
     }
 
-    // All Modifiers Ends here --------------------------------------------------
+    // All Modifiers Ends here
 
     // get balance
     function getBalance() public view returns (uint256) {
