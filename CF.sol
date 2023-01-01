@@ -104,7 +104,7 @@ contract CrowdFunding {
         currentRequest.noOfVoters++;
     }
 
-    // make payemnt only if the voters are greater than half of the contributors.
+    // make payment only if the voters are greater than half of the contributors.
     function makePayment(uint _requestNo) public onlyOwner{
         require(raisedAmount >= target);
         Request storage currentRequest = allRequests[_requestNo];
