@@ -27,7 +27,7 @@ contract CrowdFunding {
         owner = msg.sender;
         deadline = block.timestamp + _deadline;
         target = _target;
-        minimumContribution = 100 wei;
+        minimumContribution = 600 wei;
     }
 
     // All Modifiers starts here 
