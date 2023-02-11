@@ -5,12 +5,12 @@ The contract also includes a struct called Request which represents a request fo
 
 The contract has a number of modifiers, which are functions that are used to modify the behavior of other functions. The onlyOwner modifier allows only the owner of the contract to access a function. The isDeadlinePassed modifier checks that the deadline for the crowd funding campaign has not passed before allowing access to a function. The isContributor modifier checks that the caller is a contributor to the crowd funding campaign before allowing access to a function.
 
-## The contract has several functions:
+## The contract has several functions
 
-1. [getBalance] returns the balance of the contract
-2. [contribute] allows a contributor to contribute to the crowd funding campaign
-3. [refund] allows a contributor to request a refund if the target is not reached and the deadline has passed
-4. [createRequest] allows the owner to create a payment request for the crowd funding campaign
-5. [voteRequest] allows a contributor to vote on a payment request
-6. [makePayment] allows the owner to make a payment for a request if the number of votes is greater than half of the total contributors.
+-  **[getBalance]** returns the balance of the contract
+-  **[contribute]** allows a contributor to contribute to the crowd funding campaign
+-  **[refund]** allows a contributor to request a refund if the target is not reached and the deadline has passed
+-  **[createRequest]** allows the owner to create a payment request for the crowd funding campaign
+-  **[voteRequest]** allows a contributor to vote on a payment request
+-  **[makePayment]** allows the owner to make a payment for a request if the number of votes is greater than half of the total contributors.
 
