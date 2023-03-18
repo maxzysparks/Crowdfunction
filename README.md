@@ -2,10 +2,10 @@
 This repository contains the Solidity code for a CrowdFunding smart contract. The contract enables users to contribute funds towards a specific goal within a specific deadline. Contributors can also vote on requests to access the funds, and if the majority of the contributors approve the request, the contract owner can make payments to the designated recipient.
 
 ## Getting Started
-To use the CrowdFunding contract, you will need to have the following software installed:
+To use the CrowdFunding contract, you will need to have this software installed:
 
-- [Solidity Compiler](https://solidity.readthedocs.io/en/v0.8.7/installing-solidity.html)
 - [Remix IDE](https://remix.ethereum.org/) or any other Ethereum development environment
+
 ## Deployment
 - Clone the repository to your local environment.
 - Compile the contract using the Solidity Compiler.
